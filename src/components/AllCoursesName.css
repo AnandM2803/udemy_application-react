@@ -1,0 +1,58 @@
+/* AllCoursesName.css */
+
+/* Default styling (desktop) */
+.all-course-name-container {
+    border: 0px solid gray;
+    height: 100px;
+}
+.all-course button {
+    position: relative;
+    left: 70px;
+    top: 80px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+
+@media screen and (max-width: 1366px) {
+    .all-course-name-container {
+        height: 90px;
+    }
+    .all-course button {
+        left: 60px;
+        top: 70px;
+        width: 280px;
+        height: 28px;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .all-course-name-container {
+        height: 80px;
+    }
+    .all-course button {
+        left: 50px;
+        top: 60px;
+        width: 250px;
+        height: 28px;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .all-course-name-container {
+        height: 60px;
+    }
+    .all-course button {
+        left: 30px;
+        top: 40px;
+        width: 200px;
+        height: 25px;
+        font-size: 13px;
+    }
+}

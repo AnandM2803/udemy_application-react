@@ -1,0 +1,286 @@
+.focused-container
+{
+    background-color: #e6f5fd;
+    height: 110vh;
+    
+}
+.learning-container h3{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    font-size: 29px;
+    width: 80%;
+}
+
+
+
+.heads-on-container{
+    border: 1px solid gray;
+    height: 130px;
+    width: 511px;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 9px;
+    
+
+}
+.hands-img img
+{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.hands-text h3{
+    position: relative;
+    left: 110px;
+    width: 70%;
+    bottom: 60px;
+    font-size: 23px; 
+}
+.hands-subtext h5{
+    font-size: 16px;
+    color: gray;
+    position: relative;
+    left: 106px;
+    bottom: 60px;
+    width: 79%;
+}
+.certificate-container{
+    border: 1px solid gray;
+    height: 130px;
+    width: 511px;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 9px;
+}
+.certificate-img img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.certificate-text h3{
+    position: relative;
+    left: 110px;
+    width: 70%;
+    bottom: 60px;
+    font-size: 23px; 
+}
+.certificate-subtext h5
+{
+    font-size: 16px;
+    color: gray;
+    position: relative;
+    left: 105px;
+    bottom: 60px;
+    width: 79%;
+}
+.insight-container{
+    border: 1px solid gray;
+    height: 130px;
+    width: 511px;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 9px;
+}
+.insight-img img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.insight-text h3{
+    position: relative;
+    left: 110px;
+    width: 70%;
+    bottom: 60px;
+    font-size: 23px; 
+}
+.insight-text button{
+    position: relative;
+    left: 360px;
+    bottom: 97px;
+    height: fit-content;
+    border-radius: 8px;
+    color: blueviolet;
+    border: 3px solid blueviolet;
+    background-color: white;
+
+}
+
+.insight-subtext h5
+{
+    font-size: 16px;
+    color: gray;
+    position: relative;
+    left: 102px;
+    bottom: 90px;
+    width: 80%;
+}
+.insight-subtext a{
+    position: relative;
+    bottom: 90px;
+    left: 150px;
+    color: rgb(156, 55, 214);
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.customizable-container{
+    border: 1px solid gray;
+    height: 130px;
+    width: 511px;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 9px;
+}
+.customizable-img img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 17px;
+    top: 10px;
+}
+.customizable-text h3{
+    position: relative;
+    left: 110px;
+    width: 70%;
+    bottom: 60px;
+    font-size: 23px; 
+    
+}
+.customizable-text button{
+    position: relative;
+    left: 360px;
+    bottom: 97px;
+    height: fit-content;
+    border-radius: 8px;
+    color: blueviolet;
+    border: 3px solid blueviolet;
+    background-color: white;
+}
+.customizable-subtext h5{
+    font-size: 16px;
+    color: gray;
+    position: relative;
+    left: 95px;
+    bottom: 90px;
+    width: 81%;
+}
+.customizable-subtext a{
+    position: relative;
+    bottom: 90px;
+    left: 150px;
+    color: rgb(156, 55, 214);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.all-containers {
+    margin-top: 90px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    /* height: 600px; */
+    overflow: hidden;
+}
+.heads-on-container:hover,.certificate-container:hover,.insight-container:hover,.customizable-container:hover{
+    border: 2px solid blueviolet;
+    cursor: pointer;
+    border-left: 10px solid blueviolet;
+}
+.long-img-container{
+    object-fit: cover;
+}
+.long-img-container img{
+    max-height: 550px !important;
+    max-width: 1600px !important;
+    position: relative;
+    left: 700px;
+    bottom: 550px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .all-containers {
+        margin-left: 50px;
+    }
+
+    .container-img img {
+        left: 25px;
+    }
+
+    .container-text h3 {
+        left: 120px;
+    }
+
+    .container-subtext h5 {
+        left: 112px;
+    }
+
+    .container-subtext a {
+        left: 160px;
+    }
+
+    .container-text button {
+        left: 370px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .focused-container {
+        height: auto;
+    }
+
+    .learning-container h3 {
+        top: 20px;
+        left: 20px;
+        font-size: 22px;
+    }
+
+    .all-containers {
+        margin-left: 20px;
+    }
+
+    .heads-on-container,
+    .certificate-container,
+    .insight-container,
+    .customizable-container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-img img {
+        position: static;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .container-text h3 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .container-subtext h5 {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .container-subtext a {
+        text-align: center;
+        display: block;
+        margin-top: 5px;
+    }
+
+    .container-text button {
+        position: static;
+        display: block;
+        margin: 10px auto;
+    }
+}

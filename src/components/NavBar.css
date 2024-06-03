@@ -1,0 +1,165 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+nav div a {
+  color: rgb(71, 70, 70);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navbar div {
+  display: flex;
+  align-items: center;
+}
+
+.navbar input {
+  margin-left: 5px;
+  padding-left: 40px;
+}
+
+.udemylogo img {
+  width: 99px;
+  height: 45px;
+  margin-left: 5px;
+}
+
+.categories {
+  position: relative;
+  right: 9px;
+}
+
+.login {
+  border: 1px solid gray;
+  padding: 6px 12px;
+  position: relative;
+  left: 13px;
+}
+
+.signup {
+  border: 1px solid gray;
+  padding: 6px 12px;
+  background-color: black;
+  position: relative;
+  left: 8px;
+}
+
+.signup a {
+  color: white;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons svg {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 14px;
+}
+
+.plan {
+  position: relative;
+  left: 10px;
+}
+
+.udemyBusiness {
+  position: relative;
+  left: 19px;
+}
+
+.techOn {
+  position: relative;
+  left: 31px;
+}
+
+.icons1 svg {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  right: 5px;
+  border: 2px solid black;
+}
+
+.search-container input {
+  width: 420px;
+  height: 33px;
+  border-radius: 20px;
+}
+
+.search-container .icons1 {
+  position: relative;
+  left: 30px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.categories-container {
+  position: relative;
+}
+
+.categories-list {
+  display: block;
+  position: absolute;
+  top: 42px;
+  left: -9px;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  visibility: hidden;
+  width: 250px; 
+
+.categories-container:hover .categories-list {
+  visibility: visible;
+
+}
+
+@media only screen and (max-width: 780px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links,
+  .icons,
+  .login,
+  .signup,
+  .icons1,
+  .search-container {
+    display: none;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .ham:hover + .list,
+  .list:hover {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: 0;
+    background-color: aliceblue;
+    line-height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .list a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+  }
+}
+}

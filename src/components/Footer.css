@@ -1,0 +1,124 @@
+.footer-main-container{
+    background-color: #353434;
+    color: white;
+    height: 350px;
+}
+.footer-text-container
+{
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+    width: 70%;
+    padding-top: 25px;
+    padding-left: 5px;
+
+}
+.footer-sec-text{
+    color: #C0C4FC;
+}
+.footer-top-container{
+    display: flex;
+    column-gap: 20px;
+}
+.footer-logo-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    padding-top: 14px;
+}
+.footer-list-container{
+    display: flex;
+    column-gap:100px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.footer-list-container ul li{
+    list-style: none;
+}
+.footer-list-container ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-list-container ul li a:hover{
+    text-decoration: underline;
+}
+.language-englis button{
+    background-color:  #414141;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 140px;
+    height: 50px;
+    font-size: 21px;
+}
+.language-englis{
+    position: relative;
+    left: 330px;
+    border-radius: 5px;
+    top: 2px;
+    height: fit-content;
+    width: fit-content;
+}
+.icon3{
+    position: relative;
+    bottom: 2px;
+    right: 3px;
+}
+.footer-logo{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+   top: 40px;
+   left: 50px;
+}
+.footer-logo img{
+    width: 90px;
+    height: 30px;
+}
+.footer-copyright{
+    position: relative;
+    left: 1164px;
+    top: 17px;
+    width: 11%;
+}
+.footer-copyright h6{
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .footer-main-container {
+      height: 360px; 
+    }
+    .footer-logo {
+      left: 90px; 
+    }
+    .footer-copyright {
+      left: 1010px; 
+    }
+  }
+  
+
+  @media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .footer-main-container {
+      height: 330px; 
+    }
+    .footer-logo {
+      left: 76px; 
+    }
+    .footer-copyright {
+      left: 740px; 
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .footer-main-container {
+      height: 400px; 
+    }
+    .footer-logo {
+      left: 35px;
+    }
+    .footer-copyright {
+      left: 170px;
+    }
+  }
+  

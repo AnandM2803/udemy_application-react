@@ -1,0 +1,81 @@
+.list-main-container {
+    width: 90%;
+    height: fit-content;
+    margin-top: 10px;
+    background-color: white;
+    display: block;
+  }
+  
+  .list-cintainr ul li {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  .list-cintainr ul li a {
+    text-decoration: none;
+    width: 100%;
+    color: black;
+  }
+  
+  .list-arrow1,
+  .list-arrow2,
+  .list-arrow3,
+  .list-arrow4,
+  .list-arrow5,
+  .list-arrow6,
+  .list-arrow7,
+  .list-arrow8,
+  .list-arrow9,
+  .list-arrow10,
+  .list-arrow11,
+  .list-arrow12,
+  .list-arrow13 {
+    float: right;
+    font-size: 20px;
+    color: gray;
+    padding-top: 6px;
+    position: relative;
+    left: 19px;
+  }
+ 
+@media only screen and (max-width: 767px) {
+  .list-main-container {
+    width: 90%; 
+  }
+
+  .list-arrow1,
+  .list-arrow2,
+  .list-arrow3,
+  .list-arrow4,
+  .list-arrow5,
+  .list-arrow6,
+  .list-arrow7,
+  .list-arrow8,
+  .list-arrow9,
+  .list-arrow10,
+  .list-arrow11,
+  .list-arrow12,
+  .list-arrow13 {
+    float: none;
+    font-size: 14px; 
+    padding-top: 0;
+    position: relative;
+    left: 0;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .list-main-container {
+    width: 70%; 
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .list-main-container {
+    width: 80%; 
+  }
+}
+
+  

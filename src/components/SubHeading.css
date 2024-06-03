@@ -1,0 +1,45 @@
+.sub-heading-container {
+    padding: 20px;
+}
+
+.sub-heading-content1 h1 {
+    font-size: 27px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    width: 80%;
+}
+
+.sub-heading-content2 h5 {
+    font-size: 20px;
+    color: rgb(66, 65, 65);
+    position: relative;
+    left: 50px;
+    top: 20px;
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .sub-heading-content1 h1, .sub-heading-content2 h5 {
+        font-size: 24px;
+        left: 30px;
+        top: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .sub-heading-content1 h1, .sub-heading-content2 h5 {
+        font-size: 20px;
+        left: 20px;
+        top: 10px;
+    }
+
+    .sub-heading-content1 h1 {
+        font-size: 22px;
+    }
+
+    .sub-heading-content2 h5 {
+        font-size: 18px;
+    }
+}

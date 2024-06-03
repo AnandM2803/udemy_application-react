@@ -1,0 +1,59 @@
+.company-logo-container {
+    margin-top: 30px;
+    background-color: rgb(215, 228, 228);
+    height: 240px;
+}
+
+.hedaer-container-logo h2 {
+    font-size: 22px;
+    color: #58595b;
+    position: relative;
+    left: 260px;
+    top: 40px;
+    margin-top: 40px;
+    width: 780px;
+}
+
+.logo-conatiner {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-conatiner img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hedaer-container-logo h2 {
+        font-size: 18px;
+        width: auto;
+        left: 0;
+        top: 0;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .logo-conatiner {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .company-logo-container {
+        height: auto;
+    }
+
+    .hedaer-container-logo h2 {
+        font-size: 16px;
+    }
+
+    .logo-conatiner {
+        flex-direction: column;
+        align-items: center;
+    }
+}

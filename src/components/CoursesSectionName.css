@@ -1,0 +1,250 @@
+.courses-section-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.courses-set1 h2{
+    font-size: 14px;
+    color: darkgray;
+}
+.courses-set1 h5{
+    font-size: 12px;
+    color: darkgray;
+    position: relative;
+    bottom: 9px;
+    left: 18px;
+}
+.courses-section-container a{
+    text-decoration: none;
+}
+.courses-set2 h2{
+    font-size: 14px;
+    color: darkgray;
+}
+.courses-set2 h5{
+    font-size: 12px;
+    color: darkgray;
+    position: relative;
+    bottom: 9px;
+    right: 13px;
+}
+.courses-set3 h2{
+    font-size: 14px;
+    color: darkgray;
+}
+.courses-set3 h5{
+    font-size: 12px;
+    color: darkgray;
+    position: relative;
+    bottom: 9px;
+    right: 14px;
+}
+.courses-set4 h2{
+    font-size: 14px;
+    color: darkgray;
+}
+.courses-set4 h5{
+    font-size: 12px;
+    color: darkgray;
+    position: relative;
+    bottom: 9px;
+    right: 15px;
+}
+.courses-set5 h2{
+    font-size: 14px;
+    color: darkgray;
+}
+.courses-set5 h5{
+    font-size: 12px;
+    color: darkgray;
+    position: relative;
+    bottom: 9px;
+    right: 28px;
+}.courses-set6 h2{
+    font-size: 14px;
+    color: darkgray;
+}
+.courses-set6 h5{
+    font-size: 12px;
+    color: darkgray;
+    position: relative;
+    bottom: 9px;
+    left: 33px;
+}
+.courses-set7 h2{
+    font-size: 14px;
+    color: darkgray;
+}
+.courses-set7 h5{
+    font-size: 12px;
+    color: darkgray;
+    position: relative;
+    bottom: 9px;
+    left: 17px;
+}
+.courses-set1
+{
+    border: 1px solid black;
+    width: 150px;
+    border-radius: 50px;
+    
+}
+.courses-set1 a{
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.courses-set2
+{
+    border: 1px solid black;
+    width: 110px;
+    border-radius: 50px;
+}
+.courses-set2 a{
+    position: relative;
+    left: 23px;
+    top: 7px;
+}
+.courses-set3
+{
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 50px;
+}
+.courses-set3 a{
+    position: relative;
+    left: 25px;
+    top: 6px;
+}
+.courses-set4
+{
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 50px;
+}
+.courses-set4 a{
+    position: relative;
+    left: 28px;
+    top: 6px;
+}
+.courses-set5
+{
+    border: 1px solid black;
+    width: 110px;
+    border-radius: 50px;
+}
+.courses-set5 a{
+    position: relative;
+    left: 38px;
+    top: 7px;
+}
+.courses-set6
+{
+    border: 1px solid black;
+    width: 150px;
+    border-radius: 50px;
+}
+.courses-set6 a{
+    position: relative;
+    left: 7px;
+    top: 10px;
+}
+.courses-set7
+{
+    border: 1px solid black;
+    width: 150px;
+    border-radius: 50px;
+}
+.courses-set7 a{
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.courses-set1:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.courses-set2:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.courses-set3:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.courses-set4:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.courses-set5:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.courses-set6:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.courses-set7:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+    .courses-section-container {
+        margin-top: 50px;
+    }
+    .courses-set1, .courses-set2, .courses-set3, .courses-set4, .courses-set5, .courses-set6, .courses-set7 {
+        width: 200px;
+    }
+    .courses-set1 a, .courses-set2 a, .courses-set3 a, .courses-set4 a, .courses-set5 a, .courses-set6 a, .courses-set7 a {
+        left: 20px;
+        top: 15px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .courses-section-container {
+        margin-top: 40px;
+    }
+    .courses-set1, .courses-set2, .courses-set3, .courses-set4, .courses-set5, .courses-set6, .courses-set7 {
+        width: 160px;
+    }
+    .courses-set1 a, .courses-set2 a, .courses-set3 a, .courses-set4 a, .courses-set5 a, .courses-set6 a, .courses-set7 a {
+        left: 15px;
+        top: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .courses-section-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .courses-set1, .courses-set2, .courses-set3, .courses-set4, .courses-set5, .courses-set6, .courses-set7 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .courses-set1 a, .courses-set2 a, .courses-set3 a, .courses-set4 a, .courses-set5 a, .courses-set6 a, .courses-set7 a {
+        left: 0;
+        top: 0;
+    }
+    .courses-set1, .courses-set2, .courses-set3, .courses-set4, .courses-set5, .courses-set6, .courses-set7 a {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .courses-set1 h2, .courses-set2 h2, .courses-set3 h2, .courses-set4 h2, .courses-set5 h2, .courses-set6 h2, .courses-set7 h2 {
+        margin-left: 15px;
+    }
+    .courses-set1 h5, .courses-set2 h5, .courses-set3 h5, .courses-set4 h5, .courses-set5 h5, .courses-set6 h5, .courses-set7 h5 {
+        margin-left: 15px;
+    }
+}
